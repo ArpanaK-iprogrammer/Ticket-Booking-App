@@ -1,0 +1,81 @@
+li{
+    list-style: none;
+}
+
+.available {
+    background-color: #DFD7BF;
+    height: 15px;
+    width:20px;
+    margin:5px;
+}
+
+.booked {
+    background-color:red;
+    height: 15px;
+    width:20px;
+    margin:5px;
+}
+
+.selected {
+    background-color: green;
+    height: 15px;
+    width:20px;
+    margin:5px;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.screen {
+    background:#ffffff ;
+    height: 100px;
+    margin: 0 auto; 
+    width: 80%;  
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.showAvailable{
+    background-color: #DFD7BF;
+    height:50px;
+    width:50px;
+    margin:5px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.showAvailable:hover{
+    background-color: green;
+}
+
+.showBooked{
+    background-color: red;
+    height:50px;
+    width:50px;
+    margin:5px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.showAvailable.selected {
+    background-color: red;
+}
+
+.billingDetails{
+    background:#EDE4FF ;
+    height: 100px;
+    margin: 0 auto; 
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}

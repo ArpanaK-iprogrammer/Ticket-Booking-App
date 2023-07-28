@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Booking App</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center mt-5">Ticket Booking App</h1>
+    <div class="container mt-5">
+      <ul class="d-flex justify-content-around">
+        <li class="d-flex">
+          <div class="available"></div>
+          <b>Available Seat</b>
+        </li>
+        <li class="d-flex">
+          <div class="booked"></div>
+          <b>Booked Seat</b>
+        </li>
+        <li class="d-flex">
+          <div class="selected"></div>
+          <b>Visited Seat</b>
+        </li>  
+      </ul>
+    </div>
+    <div class="container">
+      <div class="screen mt-5"></div>
+      <div class="mt-5">
+        <div class="row">
+          <div class="showAvailable" data-seat="A1">
+            <div class="seat-name">A1</div>
+          </div>
+          <div class="showAvailable" data-seat="A2">
+            <div class="seat-name">A2</div>
+          </div>
+          <div class="showAvailable" data-seat="A3">
+            <div class="seat-name">A3</div>
+          </div>
+          <div class="showAvailable" data-seat="A4">
+            <div class="seat-name">A4</div>
+          </div>
+          <div class="showAvailable" data-seat="A5">
+            <div class="seat-name">A5</div>
+          </div>
+          <div class="showAvailable" data-seat="A6">
+            <div class="seat-name">A6</div>
+          </div>
+          <div class="showAvailable" data-seat="A7">
+            <div class="seat-name">A7</div>
+          </div>
+          <div class="showAvailable" data-seat="A8">
+            <div class="seat-name">A8</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="showAvailable" data-seat="B1">
+            <div class="seat-name">B1</div>
+          </div>
+          <div class="showAvailable" data-seat="B2">
+            <div class="seat-name">B2</div>
+          </div>
+          <div class="showAvailable" data-seat="B3">
+            <div class="seat-name">B3</div>
+          </div>
+          <div class="showAvailable" data-seat="B4">
+            <div class="seat-name">B4</div>
+          </div>
+          <div class="showAvailable" data-seat="B5">
+            <div class="seat-name">B5</div>
+          </div>
+          <div class="showAvailable" data-seat="B6">
+            <div class="seat-name">B6</div>
+          </div>
+          <div class="showAvailable" data-seat="B7">
+            <div class="seat-name">B7</div>
+          </div>
+          <div class="showAvailable" data-seat="B8">
+            <div class="seat-name">B8</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="showAvailable" data-seat="C1">
+            <div class="seat-name">C1</div>
+          </div>
+          <div class="showAvailable" data-seat="C2">
+            <div class="seat-name">C2</div>
+          </div>
+          <div class="showAvailable" data-seat="C3">
+            <div class="seat-name">C3</div>
+          </div>
+          <div class="showAvailable" data-seat="C4">
+            <div class="seat-name">C4</div>
+          </div>
+          <div class="showAvailable" data-seat="C5">
+            <div class="seat-name">C5</div>
+          </div>
+          <div class="showAvailable" data-seat="C6">
+            <div class="seat-name">C6</div>
+          </div>
+          <div class="showBooked">C7</div>
+          <div class="showBooked">C8</div>
+        </div>
+        <div class="row">
+          <div class="showAvailable" data-seat="D1">
+            <div class="seat-name">D1</div>
+          </div>
+          <div class="showAvailable" data-seat="D2">
+            <div class="seat-name">D2</div>
+          </div>
+          <div class="showAvailable" data-seat="D3">
+            <div class="seat-name">D3</div>
+          </div>
+          <div class="showAvailable" data-seat="D4">
+            <div class="seat-name">D4</div>
+          </div>
+          <div class="showAvailable" data-seat="D5">
+            <div class="seat-name">D5</div>
+          </div>
+          <div class="showAvailable" data-seat="D6">
+            <div class="seat-name">D6</div>
+          </div>
+          <div class="showAvailable" data-seat="D7">
+            <div class="seat-name">D7</div>
+          </div>
+          <div class="showAvailable" data-seat="D8">
+            <div class="seat-name">D8</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="showAvailable" data-seat="E1">
+            <div class="seat-name">E1</div>
+          </div>
+          <div class="showAvailable" data-seat="E2">
+            <div class="seat-name">E2</div>
+          </div>
+          <div class="showAvailable" data-seat="E3">
+            <div class="seat-name">E3</div>
+          </div>
+          <div class="showBooked">E4</div>
+          <div class="showAvailable" data-seat="E5">
+            <div class="seat-name">E5</div>
+          </div>
+          <div class="showAvailable" data-seat="E6">
+            <div class="seat-name">E6</div>
+          </div>
+          <div class="showAvailable" data-seat="E7">
+            <div class="seat-name">E7</div>
+          </div>
+          <div class="showBooked">E8</div>
+        </div>
+        <div class="row">
+          <div class="showAvailable" data-seat="F1">
+            <div class="seat-name">F1</div>
+          </div>
+          <div class="showAvailable" data-seat="F2">
+            <div class="seat-name">F2</div>
+          </div>
+          <div class="showAvailable" data-seat="F3">
+            <div class="seat-name">F3</div>
+          </div>
+          <div class="showAvailable" data-seat="F4">
+            <div class="seat-name">F4</div>
+          </div>
+          <div class="showBooked">F5</div>
+          <div class="showBooked">F6</div>
+          <div class="showBooked">F7</div>
+          <div class="showAvailable" data-seat="F8">
+            <div class="seat-name">F8</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 text-center billingDetails">
+      <h4 id="selectedSeats" class="pt-3">Booked Seats:0</h4>
+      <h3>Total Price:Rs <span id="totalPrice">0</span>/-</h3>
+    </div>
+  </div>
+  
+ <script src="./script.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
